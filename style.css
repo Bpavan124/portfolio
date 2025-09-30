@@ -1,0 +1,98 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f9fafb;
+color: #333;
+}
+
+
+.navbar {
+position: sticky;
+top: 0;
+background: #fff;
+border-bottom: 1px solid #ddd;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+z-index: 1000;
+}
+
+
+.navbar .logo {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: linear-gradient(to bottom right, rgb(199, 51, 6), rgb(129, 3, 3));
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-weight: bold;
+}
+.navbar .brand {
+  display: flex;
+  align-items: center; /* centers vertically */
+  gap: 10px;           /* space between logo and name */
+}
+
+.navbar .brand-text {
+  display: flex;
+  flex-direction: column; /* name above, title below */
+}
+
+.navbar nav a {
+margin-left: 15px;
+text-decoration: none;
+color: #333;
+}
+
+
+.navbar nav a:hover {
+text-decoration: underline;
+}
+
+
+.hero {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 20px;
+padding: 40px 20px;
+}
+
+
+.hero-text h1 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+
+.hero-text .subtitle {
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+/* .hero-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.hero-buttons .btn {
+display: inline-block;
+margin-right: 10px;
+padding: 10px 20px;
+border-radius: 5px;
+border: 1px solid #333;
+text-decoration: none;
+color: #333;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:1px solid #696969;
+    margin: 35px;
+    object-fit: cover;
+
+}
